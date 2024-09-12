@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Registration Form</h2>
+            <table>
+                <tr>
+                    <td colspan="2" class="section-title">Personal Information</td>
+                </tr>
+                <tr>
+                    <td><label for="first-name">First Name:</label></td>
+                    <td><input type="text" id="first-name" name="first-name"></td>
+                </tr>
+                <tr>
+                    <td><label for="last-name">Last Name:</label></td>
+                    <td><input type="text" id="last-name" name="last-name"></td>
+                </tr>
+                <tr>
+                    <td><label for="file">Upload Your Photo:</label></td>
+                    <td><input type="file" id="file" name="file" required></td><br><br>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date" id="dob" name="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <select id="gender" name="gender">
+                            <option value="">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2" class="section-title">Course Information</td>
+                </tr>
+                <tr>
+                    <td><label for="course">Course:</label></td>
+                    <td>
+                        <select id="course" name="course">
+                            <option value="">Select Course</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MBA">MBA</option>
+                            <option value="IMBA">IMBA</option>
+                            <option value="BBA">BBA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="year-of-study">Year of Study:</label></td>
+                    <td>
+                        <select id="year-of-study" name="year-of-study">
+                            <option value="">Select Year</option>
+                            <option value="year1">Year 1</option>
+                            <option value="year2">Year 2</option>
+                            <option value="year3">Year 3</option>
+                            <option value="year5">Year 5</option>
+                            
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="student-id">Student ID:</label></td>
+                    <td><input type="text" id="student-id" name="student-id"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Register">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>   
+</body>
+</html>
+<footer>
+    <p>&copy; 2024 All Rights Reserved. Designed by Shreya Rout.</p>
+</footer> 
